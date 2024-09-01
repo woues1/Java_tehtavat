@@ -1,4 +1,4 @@
-package Object_oriented_programming_2_1;
+package OOP_task_1;
 
 public class TelevisionViewer {
     public static void main(String[] args) {

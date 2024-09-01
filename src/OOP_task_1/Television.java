@@ -1,4 +1,4 @@
-package Object_oriented_programming_2_1;
+package OOP_task_1;
 
 public class Television {
     private int channel;
@@ -9,11 +9,14 @@ public class Television {
     }
 
     public int setChannel(int channel) {
-        if (channel <= 10) {
-            this.channel = channel;
+        if(state) {
+            if (channel <= 10) {
+                this.channel = channel;
+                return channel;
+            }
+            this.channel = 1;
             return channel;
         }
-        this.channel = 1;
         return channel;
 
     }
